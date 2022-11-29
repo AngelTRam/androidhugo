@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_inicio">
+
+    <fragment
+        android:id="@+id/navigation_inicio"
+        android:name="com.angel.actividad1.BottomNavigation.Fragments.Inicio"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.angel.actividad1.BottomNavigation.Fragments.Map"
+        android:label="Mapa"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_config"
+        android:name="com.angel.actividad1.BottomNavigation.Fragments.Config"
+        android:label="Configuracion"
+        tools:layout="@layout/fragment_config" />
+
+    <fragment
+        android:id="@+id/navigation_coordinates"
+        android:name="com.angel.actividad1.BottomNavigation.Fragments.Coordinates"
+        android:label="Coordenadas"
+        tools:layout="@layout/fragment_coordinates" />
+
+</navigation>

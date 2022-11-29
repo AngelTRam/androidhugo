@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452404645210",
+    "project_id": "mailirouponi-90c3b",
+    "storage_bucket": "mailirouponi-90c3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452404645210:android:58500a0f5c481547fb7763",
+        "android_client_info": {
+          "package_name": "com.angel.actividad1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452404645210-lhmudfhbuuj6pfhrneepl3ajsj3rmf7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKnpkCx7mrCEFhLkAmZAej6qivX6JZipI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452404645210-lhmudfhbuuj6pfhrneepl3ajsj3rmf7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
